@@ -5,8 +5,54 @@
 <meta name="theme-color" content="#080808">
 <title>Curso Completo de Criptomoedas | Eliel Lara</title>
 <style>
-:root{--bg:#080808;--panel:#15120c;--panel2:#211b10;--line:#6f5522;--text:#fff8e8;--muted:#c2b38f;--accent:#d6aa45;--green:#d6aa45;--gold:#f5cf75}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0%,#1d1a3a 0,transparent 32%),var(--bg);color:var(--text);font:15px/1.6 Inter,system-ui,Arial,sans-serif}button,input,textarea{font:inherit}button{cursor:pointer}.layout{display:grid;grid-template-columns:280px 1fr;min-height:100vh}.side{background:#0b1120;border-right:1px solid var(--line);padding:25px 18px;position:sticky;top:0;height:100vh;overflow:auto}.brand{font-weight:900;letter-spacing:.08em;font-size:17px}.brand span{color:var(--accent)}.author{color:var(--muted);font-size:12px;margin:4px 0 24px}.navtitle{color:#6f829f;font-size:10px;letter-spacing:.16em;font-weight:800;margin:22px 10px 8px}.nav button{width:100%;text-align:left;border:0;background:transparent;color:#b9c6da;padding:10px 12px;border-radius:10px;margin:2px 0}.nav button:hover,.nav button.active{background:#22213d;color:white}.nav button.active{box-shadow:inset 3px 0 var(--accent)}.progressbox{background:var(--panel);border:1px solid var(--line);padding:14px;border-radius:14px;margin-top:24px}.progressline{height:7px;background:#28344a;border-radius:10px;overflow:hidden;margin:8px 0}.progressline i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--green));width:0}.small{font-size:12px;color:var(--muted)}main{padding:36px clamp(18px,5vw,70px);max-width:1250px;width:100%;margin:auto}.top{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:25px}.badge{border:1px solid #4b3f78;background:#211d39;color:#d8caff;padding:6px 11px;border-radius:99px;font-size:11px;font-weight:800;letter-spacing:.08em}.hero{padding:35px;border:1px solid var(--line);border-radius:22px;background:linear-gradient(130deg,#171b31,#101a29 65%,#20203b);margin-bottom:22px}.eyebrow{color:var(--accent);font-weight:800;letter-spacing:.15em;font-size:11px}.hero h1{font-size:clamp(30px,5vw,52px);line-height:1.08;margin:12px 0}.hero p{color:#b9c6da;max-width:760px}.authorline{color:var(--gold);font-weight:700}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.card,.box{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:19px}.card h3{margin:7px 0}.card p,.muted{color:var(--muted)}.card button,.primary{background:var(--accent);color:#100d20;border:0;padding:10px 15px;border-radius:10px;font-weight:800}.secondary{background:#202b40;color:var(--text);border:1px solid var(--line);padding:9px 13px;border-radius:10px}.pillnum{color:var(--accent);font-weight:900;font-size:12px}.content{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:clamp(18px,3vw,30px)}h1,h2,h3{line-height:1.2}h2{font-size:clamp(24px,3vw,34px);margin:7px 0 12px}h3{font-size:18px}.lesson{padding:18px 0;border-top:1px solid var(--line)}.lesson:first-of-type{border-top:0}.lesson p{color:#c7d2e4}.key{background:#0d1728;border-left:3px solid var(--green);padding:12px 16px;border-radius:8px;margin:12px 0}.key ul{margin:5px 0;padding-left:20px}.activity{background:#211d39;border:1px solid #4b3f78;padding:15px;border-radius:12px;margin:12px 0}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.field{display:block;width:100%;padding:11px 13px;border:1px solid var(--line);background:#0c1423;color:var(--text);border-radius:9px;margin:7px 0 14px}.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}.table{width:100%;border-collapse:collapse;margin:12px 0}.table td,.table th{border-bottom:1px solid var(--line);padding:10px;text-align:left;vertical-align:top}.table th{color:var(--accent)}.q{padding:17px 0;border-bottom:1px solid var(--line)}.answer{display:none;background:#0c1728;padding:12px;border-radius:9px;margin-top:10px;color:#cbd6e8}.answer.show{display:block}.notice{border:1px solid #66532b;background:#2b2415;color:#f5d994;padding:14px;border-radius:12px;margin:18px 0}.certificate{background:#f5f0e5;color:#172033;padding:38px;border:8px double #b69a57;text-align:center;border-radius:4px;max-width:850px;margin:20px auto}.certificate h1{font-family:Georgia,serif;font-size:38px;color:#26304b}.certificate .name{font:32px Georgia;color:#876a2e;border-bottom:1px solid #b69a57;display:inline-block;padding:8px 25px}.hide{display:none!important}footer{color:#73839d;font-size:12px;padding:30px 0;text-align:center}
+:root{--bg:#080808;--panel:#15120c;--panel2:#211b10;--line:#6f5522;--text:#fff8e8;--muted:#d4c49d;--accent:#d6aa45;--green:#d6aa45;--gold:#f5cf75}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0%,#1d1a3a 0,transparent 32%),var(--bg);color:var(--text);font:18px/1.75 Inter,system-ui,Arial,sans-serif}button,input,textarea{font:inherit}button{cursor:pointer}
+.layout{display:grid;grid-template-columns:310px 1fr;min-height:100vh}
+.side{background:#0b1120;border-right:1px solid var(--line);padding:30px 20px;position:sticky;top:0;height:100vh;overflow:auto}
+.brand{font-weight:900;letter-spacing:.08em;font-size:19px}.brand span{color:var(--accent)}.author{color:var(--muted);font-size:13px;margin:6px 0 28px}
+.navtitle{color:#8296b7;font-size:12px;letter-spacing:.16em;font-weight:800;margin:26px 10px 10px}
+.nav button{width:100%;text-align:left;border:0;background:transparent;color:#cbd6e8;padding:12px 14px;border-radius:10px;margin:3px 0;font-size:16px;font-weight:600}
+.nav button:hover,.nav button.active{background:#22213d;color:white}.nav button.active{box-shadow:inset 3px 0 var(--accent)}
+.progressbox{background:var(--panel);border:1px solid var(--line);padding:16px;border-radius:14px;margin-top:28px}.progressline{height:9px;background:#28344a;border-radius:10px;overflow:hidden;margin:10px 0}.progressline i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--green));width:0}.small{font-size:14px;color:var(--muted)}
+main{padding:40px clamp(20px,5vw,80px);max-width:1300px;width:100%;margin:auto}
+.top{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:30px}
+.badge{border:1px solid #4b3f78;background:#211d39;color:#d8caff;padding:8px 14px;border-radius:99px;font-size:12px;font-weight:800;letter-spacing:.08em}
+.hero{padding:45px;border:1px solid var(--line);border-radius:22px;background:linear-gradient(130deg,#171b31,#101a29 65%,#20203b);margin-bottom:25px}
+.eyebrow{color:var(--accent);font-weight:800;letter-spacing:.15em;font-size:12px}
+.hero h1{font-size:clamp(32px,5vw,56px);line-height:1.15;margin:14px 0}
+.hero p{color:#cbd6e8;max-width:780px;font-size:19px}
+.authorline{color:var(--gold);font-weight:700;font-size:17px}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.card,.box{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:24px}
+.card h3{margin:10px 0;font-size:21px}.card p,.muted{color:var(--muted);font-size:16px}
+.card button,.primary{background:var(--accent);color:#100d20;border:0;padding:12px 18px;border-radius:10px;font-weight:800;font-size:16px}
+.secondary{background:#202b40;color:var(--text);border:1px solid var(--line);padding:11px 16px;border-radius:10px;font-size:15px}
+.pillnum{color:var(--accent);font-weight:900;font-size:13px}
+.content{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:clamp(22px,3.5vw,40px)}
+h1,h2,h3{line-height:1.25}
+h2{font-size:clamp(26px,3.2vw,38px);margin:8px 0 16px}
+h3{font-size:20px}
+.lesson{padding:22px 0;border-top:1px solid var(--line)}
+.lesson:first-of-type{border-top:0}
+.lesson p{color:#d8e2f0;font-size:17px}
+.key{background:#0d1728;border-left:4px solid var(--green);padding:16px 20px;border-radius:8px;margin:16px 0;font-size:17px}
+.key ul{margin:8px 0;padding-left:22px}
+.activity{background:#211d39;border:1px solid #4b3f78;padding:18px;border-radius:12px;margin:14px 0;font-size:17px}
+.toolbar{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.field{display:block;width:100%;padding:13px 16px;border:1px solid var(--line);background:#0c1423;color:var(--text);border-radius:9px;margin:8px 0 16px;font-size:17px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.table{width:100%;border-collapse:collapse;margin:16px 0;font-size:17px}
+.table td,.table th{border-bottom:1px solid var(--line);padding:14px;text-align:left;vertical-align:top}
+.table th{color:var(--accent);font-size:18px}
+.q{padding:20px 0;border-bottom:1px solid var(--line)}
+.answer{display:none;background:#0c1728;padding:16px;border-radius:9px;margin-top:12px;color:#d8e2f0;font-size:17px}
+.answer.show{display:block}
+.notice{border:1px solid #66532b;background:#2b2415;color:#f5d994;padding:18px;border-radius:12px;margin:22px 0;font-size:17px}
+.certificate{background:#f5f0e5;color:#172033;padding:42px;border:8px double #b69a57;text-align:center;border-radius:4px;max-width:850px;margin:20px auto}
+.certificate h1{font-family:Georgia,serif;font-size:40px;color:#26304b}
+.certificate .name{font:34px Georgia;color:#876a2e;border-bottom:1px solid #b69a57;display:inline-block;padding:8px 25px}
+.hide{display:none!important}
+footer{color:#8c9bb3;font-size:14px;padding:35px 0;text-align:center}
 
 /* PREMIUM BLACK & GOLD — DEPTH / 3D */
 body{
@@ -79,7 +125,7 @@ body{
 .lesson{border-color:rgba(190,146,51,.25)}
 .key{
  background:linear-gradient(145deg,#241d10,#13110c);
- border-left:3px solid #d6aa45;box-shadow:inset 0 1px rgba(255,230,170,.06);
+ border-left:4px solid #d6aa45;box-shadow:inset 0 1px rgba(255,230,170,.06);
 }
 .activity{
  background:linear-gradient(145deg,#33270f,#17130b);
@@ -98,13 +144,13 @@ body{
 }
 .answer{background:#17130b;color:#f0dfb7;border:1px solid #6f5522}
 .certificate{box-shadow:0 18px 40px rgba(0,0,0,.4)}
-footer{color:#98845b}
+footer{color:#a8946b}
 @media(prefers-reduced-motion:reduce){
  *,*:before,*:after{transition:none!important;scroll-behavior:auto!important}
 }
 
-@media(max-width:850px){.layout{display:block}.side{position:relative;height:auto;padding:15px}.nav{display:flex;overflow:auto;gap:5px}.navtitle{display:none}.nav button{white-space:nowrap;width:auto}.progressbox{margin-top:10px}.grid{grid-template-columns:1fr 1fr}main{padding:20px 14px}.two{grid-template-columns:1fr}}
-@media(max-width:520px){.grid{grid-template-columns:1fr}.hero{padding:22px}.top{align-items:flex-start;flex-direction:column}}
+@media(max-width:850px){.layout{display:block}.side{position:relative;height:auto;padding:18px}.nav{display:flex;overflow:auto;gap:6px}.navtitle{display:none}.nav button{white-space:nowrap;width:auto}.progressbox{margin-top:12px}.grid{grid-template-columns:1fr 1fr}main{padding:25px 16px}.two{grid-template-columns:1fr}}
+@media(max-width:520px){.grid{grid-template-columns:1fr}.hero{padding:25px}.top{align-items:flex-start;flex-direction:column}}
 @media print{body{background:white;color:#111}.side,.top,.noprint,footer{display:none!important}.layout{display:block}main{padding:0;max-width:none}.certificate{display:block!important;max-width:none;margin:0;min-height:90vh;page-break-inside:avoid}}
 </style>
 </head>
@@ -130,7 +176,7 @@ footer{color:#98845b}
   <div class="progressbox">
     <b>Seu progresso</b><div class="progressline"><i id="progressBar"></i></div>
     <div class="small"><span id="progressText">0%</span> • <span id="doneText">0 de 10 pilares concluídos</span></div>
-    <button class="secondary" style="width:100%;margin-top:12px" onclick="resetProgress()">Reiniciar progresso</button>
+    <button class="secondary" style="width:100%;margin-top:14px" onclick="resetProgress()">Reiniciar progresso</button>
   </div>
 </aside>
 <main>
@@ -153,7 +199,7 @@ function home(){setActive('home');app.innerHTML=`
 <div class="hero"><div class="eyebrow">FORMAÇÃO • DO PRIMEIRO RADAR À DECISÃO</div><h1>${esc(COURSE.name)}<br><span style="color:var(--accent)">${esc(COURSE.subtitle)}</span></h1><p>${esc(COURSE.description)}</p><div class="authorline">Autor: ${esc(COURSE.author)}</div><div class="toolbar"><button class="primary" onclick="openModule(1)">Começar o curso →</button><button class="secondary" onclick="show('plan')">Ver plano de estudos</button></div></div>
 <div class="notice">${esc(COURSE.disclaimer)}</div>
 <div class="grid"><div class="card"><div class="pillnum">10 PILARES</div><h3>Trilha completa</h3><p>Conteúdo organizado em módulos e lições.</p></div><div class="card"><div class="pillnum">30 DIAS</div><h3>Plano de estudos</h3><p>Roteiro prático de aprendizagem progressiva.</p></div><div class="card"><div class="pillnum">100 PONTOS</div><h3>Método CAÇADOR</h3><p>Critérios para estruturar a investigação.</p></div></div>
-<h2 style="margin-top:30px">Sua trilha de aprendizagem</h2><div class="grid">${COURSE.pillars.map(p=>`<div class="card"><div class="pillnum">PILAR ${String(p.number).padStart(2,'0')}</div><h3>${esc(p.title)}</h3><p>${esc(p.objective)}</p><div class="small">${state.done.includes(p.number)?'✓ Concluído':'Não concluído'}</div><button style="margin-top:12px" onclick="openModule(${p.number})">Acessar pilar</button></div>`).join('')}</div>`}
+<h2 style="margin-top:35px">Sua trilha de aprendizagem</h2><div class="grid">${COURSE.pillars.map(p=>`<div class="card"><div class="pillnum">PILAR ${String(p.number).padStart(2,'0')}</div><h3>${esc(p.title)}</h3><p>${esc(p.objective)}</p><div class="small">${state.done.includes(p.number)?'✓ Concluído':'Não concluído'}</div><button style="margin-top:14px" onclick="openModule(${p.number})">Acessar pilar</button></div>`).join('')}</div>`}
 function openModule(n){setActive(n);let p=COURSE.pillars.find(x=>x.number===n);app.innerHTML=`<div class="content"><div class="eyebrow">PILAR ${String(n).padStart(2,'0')} • ${p.id}</div><h2>${esc(p.title)}</h2><p class="muted">${esc(p.objective)}</p>${p.lessons.map((l,i)=>`<div class="lesson"><div class="pillnum">LIÇÃO ${i+1}</div><h3>${esc(l.title)}</h3><p>${esc(l.content)}</p>${l.key_points?`<div class="key"><b>Pontos essenciais</b><ul>${l.key_points.map(k=>`<li>${esc(k)}</li>`).join('')}</ul></div>`:''}</div>`).join('')}
 ${p.formulas?`<div class="key"><b>Fórmulas</b><p>Market cap = preço × oferta circulante<br>FDV = preço × oferta total ou máxima utilizada</p></div>`:''}
 <h3>Atividades práticas</h3>${p.activities.map((a,i)=>`<div class="activity">${i+1}. ${esc(a)}</div>`).join('')}
